@@ -10,3 +10,4 @@
 
 - View
 - Text
+- Image
