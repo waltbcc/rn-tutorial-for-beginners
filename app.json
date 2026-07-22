@@ -1,4 +1,9 @@
 {
-  "name": "rn-tutorial-for-beginners-codeevolution",
-  "slug": "rn-tutorial-for-beginners-codeevolution"
+  "name": "React Native Tutorial For Beginners",
+  "slug": "rn-tutorial-for-beginners-codeevolution",
+  "orientation": "portrait",
+  "plugins": [
+    "expo-router",
+    "expo-status-bar"
+  ]
 }
