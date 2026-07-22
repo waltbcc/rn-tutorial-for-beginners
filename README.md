@@ -11,3 +11,4 @@
 - View
 - Text
 - Image
+- ImageBackground
