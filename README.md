@@ -9,3 +9,4 @@
 ### Componentes básicos
 
 - View
+- Text
