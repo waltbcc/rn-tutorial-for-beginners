@@ -1,13 +1,18 @@
-import { View, Text, Image, ImageBackground } from 'react-native'
+import { View, Text, Image, ImageBackground, ScrollView } from 'react-native'
 
-const logoImag = require('../../../assets/img.jpg');
+const logoImage = require('../../../assets/img.jpg');
 
 export default function Home() {
   return (
-    <View style={{flex: 1, backgroundColor: 'plum', padding: 60}}>
-      <ImageBackground source={logoImag} style={{flex: 1, alignItems: 'center', justifyContent: 'center'}}>
-        <Text>Texto Imagem</Text>
-      </ImageBackground>
-    </View>
+    <ScrollView  style={{flex: 1, backgroundColor: 'plum'}}>
+      <Image source={logoImage} />
+        <Text>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut voluptatum vel quod sapiente repellat porro tenetur perferendis ea libero reprehenderit, inventore neque quibusdam nemo quos minus molestias architecto distinctio voluptates.</Text>
+     <Image source={logoImage} />
+        <Text>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut voluptatum vel quod sapiente repellat porro tenetur perferendis ea libero reprehenderit, inventore neque quibusdam nemo quos minus molestias architecto distinctio voluptates.</Text>
+     <Image source={logoImage} />
+        <Text>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut voluptatum vel quod sapiente repellat porro tenetur perferendis ea libero reprehenderit, inventore neque quibusdam nemo quos minus molestias architecto distinctio voluptates.</Text>
+    
+    
+    </ScrollView>
   )
 }
