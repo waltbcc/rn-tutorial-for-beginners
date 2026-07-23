@@ -18,3 +18,10 @@
 - Modal
 - Activity Indicator
 - Alert
+
+### Estilos
+- flex
+- backgroundColor
+- padding
+- fontSize
+- fontWeight
