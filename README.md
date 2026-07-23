@@ -16,3 +16,4 @@
 - Button
 - Pressable
 - Modal
+- Activity Indicator
