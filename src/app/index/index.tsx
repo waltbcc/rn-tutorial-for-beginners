@@ -17,7 +17,7 @@ export default function Home() {
         animationType='slide'
         onRequestClose={()=>(setModalVisible(false))}
         presentationStyle='overFullScreen'
-        style={{flex: 1, alignItems: 'center', justifyContent: 'center', backgroundColor: 'blue'}}>
+        style={{flex: 1, alignItems: 'center', justifyContent: 'center', backgroundColor: 'rgba(0, 0, 0, 0.5)'}}>
           <View style={{backgroundColor: 'white', padding: 20, borderRadius: 8, width: 300, height: 300}}>
             <Text>Modal aberto</Text>
             <Button title='fechar modal' onPress={()=> setModalVisible(false)} />
