@@ -25,3 +25,5 @@
 - padding
 - fontSize
 - fontWeight
+- width
+- height
