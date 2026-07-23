@@ -15,3 +15,4 @@
 - ScrollView
 - Button
 - Pressable
+- Modal
