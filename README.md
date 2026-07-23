@@ -17,3 +17,4 @@
 - Pressable
 - Modal
 - Activity Indicator
+- Alert
